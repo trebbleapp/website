@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
 
-    <title>BlackTie.co - Sumo Lading</title>
+    <title>Trebbleapp</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 
   <body style="background-color:black;">
 
-    <div id="h" data-vide-bg="bg_small" data-vide-options=" position: 0% 0%">
+    <div id="h" data-vide-bg="bg" data-vide-options=" position: 0% 0%">
       <div class="logo">Trebble</div>
       <div class="social hidden-xs">
         <a href="#"><i class="ion-social-twitter"></i></a>
@@ -54,7 +54,7 @@
       </div><!--/container-->
     </div><!-- /H -->
 
-    <div class="container ptb" style="min-height: 700px;width: 100%;">
+    <div  class="container ptb scroller" style="min-height: 700px;width: 100%;">
       <div class="row centered">
         <div class="col-md-10 col-md-offset-1">
           <h2 style="color:#998100;">Next Generation CRM platform for the music industry that allows artists to reach, understand, and retain their biggest fans.</h2>
@@ -62,59 +62,117 @@
 to better serve, and strengthen relationships with existing fans.Trebble helps you find your biggest fans, where they’re located and how to reach them directly.</p>
         </div>
         <div class="col-md-5 col-md-offset-4 mt">
-          <img src="music.jpg" class="img-responsive" alt="">
+          <img src="music.jpg" class="img-responsive" alt="" id="music-img">
         </div>
       </div><!--/row-->
     </div><!--/container-->
 
-    <div id="sep">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-md-8 col-md-offset-2">
-            <h1 style="color:#998100; font-weight:bold;">Focus on your fans.</h1>
-            <h4>Make more informed and cost-effective decisions about touring, marketing, and distribution that allows you to reach the people that matter the most.</h4>
-            
-          </div><!--/col-md-8-->
-        </div>
+    <div class="container ptb" style="height: 400px;width: 100%; background: url(fan-min.jpeg) no-repeat center center fixed;background-size: cover; ">
+      <div class="row centered col-xs-12">
+          <h1 style="color:white; font-weight:bold;"> You are </h1>
       </div>
-    </div><!--/sep-->
-
-    <div class="container ptb" style="min-height: 600px;">
-      <div class="row centered">
-        <div class="col-md-12">
-            <h2 style="color:white; "> Launch content directly to fans</h2>
+      <div class="row centered col-xs-12" style="margin-top:100px;">
+        <div class="col-xs-4 col-xs-offset-2 centered" style="">
+          <a href="#artist_div" class="btn btn-large btn-green" style="font-size:30px;font-weight:300;"> Artist </a>
         </div>
-        <div class="col-md-12 " style="margin-top:70px;">
-          <div class="col-md-4">
-            <div class="col-md-12 centered ">
-                <i class="ion-mic-c" style="color:#998100;font-size:55px"></i>
-            </div>
+        <div class="col-xs-4 centered">
+          <a href="#fan_div" class="btn btn-large btn-green" style="font-size:30px;font-weight:300;"> Fan </a>
+        </div>
+      </div><!--/row-->
+    </div><!--/container-->
+
+    <div class="container ptb " id="artist_div" style="margin-top:50px;">
+      <div class="row">
+        <div class="col-xs-5 col-xs-offset-1" id="text" >
+          <div class="col-xs-12 centered" id="launch_directly" style="margin-bottom:200px;padding:10%;">
             <div class="col-md-12">
+                <h2 style="color:#998100; "> Launch content directly to fans</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
                   <p style="color:white;">Launch content directly to fans on their mobile devices. Set up targeted content campaigns based on region, age, and even fandom.</p> 
             </div>
           </div>
-
-          <div class="col-md-4">
-            <div class="col-md-12 centered ">
-                <i class="ion-ios-pie" style="color:#998100;font-size:55px"></i>
-            </div>
+          <div class="col-xs-12 centered" id="visualize" style="margin-bottom:200px;padding:10%;">
             <div class="col-md-12">
+                <h2 style="color:#998100; "> Visualize your reach</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
                   <p style="color:white;">Visualize how your social media posts spread globally, and determine the strengths and weaknesses in your marketing and advertising strategy.</p> 
             </div>
           </div>
-
-          <div class="col-md-4">
-            <div class="col-md-12 centered ">
-                <i class="ion-ios-people" style="color:#998100;font-size:55px"></i>
-            </div>
+          <div class="col-xs-12 centered" id="reward" style="margin-bottom:200px;padding:10%;">
             <div class="col-md-12">
+                <h2 style="color:#998100; "> Reward loyal fans</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
                   <p style="color:white;">Create incentivized rewards based on fandom to strengthen the artist-to-fan relationship.</p> 
             </div>
           </div>
+        </div>
+        <div class="col-xs-6" id="myAffix" data-spy="affix">
+          <div>
+            <img src="treb/Picture3.png" id="img-src" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="container ptb" id="artist-break" style="height: 400px;width: 100%; background: url(artist.jpeg) no-repeat center center;background-size: cover; ">
+      <div class="row centered col-xs-12" style="margin-top:100px;">
+        <div class="col-xs-4 col-xs-offset-2 centered" style="">
+         
         </div>
       </div><!--/row-->
     </div><!--/container-->
+
+     <div class="container ptb " id="fan_div" style="margin-top:50px;">
+      <div class="row">
+        <div class="col-xs-5 col-xs-offset-1" id="text" >
+          <div class="col-xs-12 centered" id="fan_launch_directly" style="margin-bottom:200px;padding:10%;">
+            <div class="col-md-12">
+                <h2 style="color:#998100; "> Launch content directly to fans</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                  <p style="color:white;">Launch content directly to fans on their mobile devices. Set up targeted content campaigns based on region, age, and even fandom.</p> 
+            </div>
+          </div>
+          <div class="col-xs-12 centered" id="fan_visualize" style="margin-bottom:200px;padding:10%;">
+            <div class="col-md-12">
+                <h2 style="color:#998100; "> Visualize your reach</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                  <p style="color:white;">Visualize how your social media posts spread globally, and determine the strengths and weaknesses in your marketing and advertising strategy.</p> 
+            </div>
+          </div>
+          <div class="col-xs-12 centered" id="fan_reward" style="margin-bottom:200px;padding:10%;">
+            <div class="col-md-12">
+                <h2 style="color:#998100; "> Reward loyal fans</h2>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                  <p style="color:white;">Create incentivized rewards based on fandom to strengthen the artist-to-fan relationship.</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6" id="fan_myAffix">
+          <div>
+            <img src="treb/Picture3.png" id="fan_img-src" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style type="text/css">
+      #myAffix.affix{
+          position: fixed;
+          top: 25px;
+          left: 50%;
+          width: 45%;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+      }
+
+    </style>
 
     <div class="container ptb" style="min-height: 500px;width: 100%;" id="final-div">
       <div class="row centered">
@@ -152,8 +210,122 @@ to better serve, and strengthen relationships with existing fans.Trebble helps y
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/onscreen.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.vide.min.js"></script>
     <script src="assets/js/retina-1.1.0.js"></script>
+
+    <script type="text/javascript">
+    $(function(){
+
+      $('#launch_directly').onScreen({
+         container: window,
+         direction: 'vertical',
+         doIn: function() {
+           // Do something to the matched elements as they come in
+           console.log("Inside the screen");
+          $("#img-src").attr("src","treb/Picture3.png");
+         },
+         tolerance: 400,
+         lazyAttr: null,
+         debug: false
+      });
+
+
+      $('#visualize').onScreen({
+         container: window,
+         direction: 'vertical',
+         doIn: function() {
+           // Do something to the matched elements as they come in
+           console.log("Inside the screen");
+          $("#img-src").attr("src","treb/Picture4.png");
+         },
+         tolerance: 400,
+         lazyAttr: null,
+         debug: false
+      });
+
+      $('#reward').onScreen({
+         container: window,
+         direction: 'vertical',
+         doIn: function() {
+           // Do something to the matched elements as they come in
+           console.log("Inside the screen");
+          $("#img-src").attr("src","treb/Picture5.png");
+         },
+         tolerance: 400,
+         lazyAttr: null,
+         debug: false
+      });
+
+      //  $('#fan_launch_directly').onScreen({
+      //    container: window,
+      //    direction: 'vertical',
+      //    doIn: function() {
+      //      // Do something to the matched elements as they come in
+      //      console.log("Inside the screen");
+      //     $("#fan_img-src").attr("src","treb/Picture3.png");
+      //    },
+      //    tolerance: 400,
+      //    lazyAttr: null,
+      //    debug: false
+      // });
+
+
+      // $('#fan_visualize').onScreen({
+      //    container: window,
+      //    direction: 'vertical',
+      //    doIn: function() {
+      //      // Do something to the matched elements as they come in
+      //      console.log("Inside the screen");
+      //     $("#fan_img-src").attr("src","treb/Picture4.png");
+      //    },
+      //    tolerance: 400,
+      //    lazyAttr: null,
+      //    debug: false
+      // });
+
+      // $('#fan_reward').onScreen({
+      //    container: window,
+      //    direction: 'vertical',
+      //    doIn: function() {
+      //      // Do something to the matched elements as they come in
+      //      console.log("Inside the screen");
+      //     $("#fan_img-src").attr("src","treb/Picture5.png");
+      //    },
+      //    tolerance: 400,
+      //    lazyAttr: null,
+      //    debug: false
+      // });
+
+        // $('#uber').affix({
+        //   offset: {
+        //     top: 0,
+        //     bottom: function () {
+        //       return (this.bottom = $('#f').outerHeight(true))
+        //     }
+        //   }
+        // });
+      console.log("top",$("#myAffix").offset().top);
+      console.log('bottom',$("#myAffix").offset().top + $("#myAffix").height());
+      console.log("total ",$(document).height())
+      $('#myAffix').affix({
+        offset: {
+          top: $("#myAffix").offset().top,
+          bottom: $("#f").outerHeight() + $("#final-div").outerHeight() + $("#launch").outerHeight() + $("#fan_div").outerHeight() + $("#artist-break").outerHeight()
+        }
+      });
+
+      // $('#fan_myAffix').affix({
+      //   offset: {
+      //     top: $("#fan_myAffix").offset().top,
+      //     bottom: $("#f").outerHeight() + $("#final-div").outerHeight() + $("#launch").outerHeight() 
+      //   }
+      // });
+
+
+    });
+
+    </script>
   </body>
 </html>
