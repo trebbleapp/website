@@ -18,7 +18,7 @@
 * { 
 	margin: 0;
 	padding: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 } 
 body { 
 	background: #fff; 
@@ -27,7 +27,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-    font-family: 'Lato', sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
 	font-size: 16px; 
 	line-height: 26px;
